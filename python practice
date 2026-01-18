@@ -1,0 +1,133 @@
+# python practice programs
+#multiline string 
+str1= '''ali 
+khan from
+lorali'''
+print(str1)
+
+print('hello python,') # this is a single line comment
+x=3
+print(x) 
+# -Following is the multiline comment in python
+''' hello
+everyone
+lets go together ''' 
+# input statements
+user=input('Enter your Name: ')
+print('Hello,', user)
+a = int(input('Enter a number:'))
+b = int(input('Enter another number:'))
+print ('display numbers=', a , b)
+num1=int(input('Enter a value:'))
+num2=int(input('Enter another value:'))
+print('Sum of num1 and num2 is:', num1+num2)
+# Bitwise Operations 
+a=5
+b=6
+print(a & b)
+print(a | b)
+print(a ^ b)
+print(~ b)
+print(a << b)
+print(a >> b)
+c=78
+d=89
+print(c & d)
+print(c << d)
+print(~c)
+e=2
+f=3
+print(e | f)
+print( e^f)
+print( ~f)
+print( ~e)
+# Arthmetic operators
+x=45
+y=23
+print('Add=', x+y)
+print('Sub=', x-y)
+print('Mul=', x*y)
+print('Div=', x/y)
+# Comparison operators
+x=45
+y=23
+print(x<y)
+print(x>y)
+print(x==y)
+print(x!=y)
+print(x<=y)
+print(x>=y)
+# string methods
+str = 'hello, pakistan hello, pakistan again'
+print(str.count('a'))
+print(str.__len__())
+print(str.lower())
+print(str.upper())
+print(str.capitalize())
+print(str.strip())
+print(str.isalnum())
+print(str.isdecimal())
+print(str.isalpha())
+
+
+# type casting
+
+num= 22
+list = ['123','456','789']
+g= 'ali'
+print(num%2==0, 'number is even')
+print(type(num))
+print(type(g))
+print(type(list))
+# Assignment operators
+aa=100
+aa += 50
+print(aa)
+aa-=30
+print(aa)
+aa /= 2
+print(aa)
+print(int(aa))
+aa *=2
+print(aa)
+aa /=2
+print(aa)
+# List
+list = ['abc', 'xyz', 'def','abc', 'xyz' ]
+print(list)
+first=list[0]
+print(list[2])
+print(list[3])
+print(first)
+list[1]= 'lmn'
+print(list)
+list.insert(3, 'WWW')
+list.insert(0, 'AAA')
+print(list)
+list.append('ZZZ')
+print(list)
+list.pop(4)
+print(list)
+list.remove('abc')
+print(list)
+list.remove('abc')
+print(list)
+list.sort()
+list.extend('aaa')
+print(list)
+list.clear()
+print(list)
+
+list2 = [123, 456, 789]
+list2.remove(123)
+print(list2)
+l = [1,2,3,4,5, True , False]
+print(l[0])
+print(l[4])
+print(l[6])
+
+
+lis =   [[1, 2, 3], 
+         [4, 5, 6], 
+         [7, 8, 9]]
+print(lis[1][2])
